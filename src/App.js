@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+const logo = `${process.env.PUBLIC_URL}/logo.webp`;
 
 function App() {
   return (
